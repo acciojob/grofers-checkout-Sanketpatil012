@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Price Calculator</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
-
 <body>
-    <!-- the entire body must be written by student -->
-    <table style="width: 100%">
-    <caption>
-      Monthly savings
-    </caption>
-    <tr>
-      <th>Item</th>
-      <th>Prices in Rs</th>
-    </tr>
-    <tr>
-      <td class="item">Tea</td>
-      <td class="price">50</td>
-    </tr>
-    <tr>
-      <td class="item">Coffee</td>
-      <td class="price">70</td>
-    </tr>
-    <tr>
-      <td class="item">Biscuits</td>
-      <td class="price">100</td>
-    </tr>
-    <tr>
-      <td class="item">Rice</td>
-      <td class="price">130</td>
-    </tr>
-    <tr>
-      <td class="item">Milk</td>
-      <td class="price">50</td>
-    </tr>
-		 <tr>
-      <td class="item">Rice</td>
-      <td class="price">130</td>
-    </tr>
-  </table>
-    <script type="text/javascript" src="./script.js">
-</script>
 
-</body>
+    <h2>Shopping Cart</h2>
 
-</html>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Item 1</td>
+                <td class="price">10.50</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td class="price">20.75</td>
+            </tr>
+            <tr>
+                <td>Item 3</td>
+                <td class="price">15.30</td>
+            </tr>
+        </tbody>
+
