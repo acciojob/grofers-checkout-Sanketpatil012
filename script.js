@@ -18,7 +18,7 @@ const getSum = () => {
         return; // Prevent further execution if table is missing
     }
 
-    let totalRow = document.querySelector("#totalPriceRow"); // Check if row already exists
+    let totalRow = document.querySelector("#ans"); // Check if row already exists
 
     if (totalRow) {
         // If it exists, update the total price
@@ -26,7 +26,7 @@ const getSum = () => {
     } else {
         // If it doesn't exist, create and append a new row
         const tr = document.createElement("tr");
-        tr.id = "totalPriceRow"; // Unique ID to prevent duplicates
+        tr.setAttribute("id", "ans"); // Unique ID to prevent duplicates
         const td = document.createElement("td");
 
         td.colSpan = 2;
